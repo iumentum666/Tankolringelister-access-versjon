@@ -31,6 +31,7 @@ Dim stNysokestreng As String
 Dim rsData As DAO.Recordset
 Dim rsRingeliste As DAO.Recordset
 Dim aapnet_ringehistorikk As Boolean
+Dim lngLen as Double
 
 stNysokestreng = "Select * From Kunderegister Where " & sokestreng
 aapnet_ringehistorikk = False
